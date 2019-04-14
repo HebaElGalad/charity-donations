@@ -15,7 +15,7 @@ $("#donation-form").submit(function(event) {
   $.ajax({
     type: "POST",
     headers: {
-      Authorization: "xxxxxxxxxxxxx",
+      // Authorization: "xxxxxxxxxxxxx",
       "Content-Type": "application/json; charset=utf-8"
     },
     url: submitLink,
